@@ -118,7 +118,7 @@ h4{
     font-size: 36px;
     font-weight: 700;
 }
-h4{
+.mini-text{
     color: #8A898E;
     font-size: 14px;
     font-style: normal;
@@ -166,6 +166,48 @@ h4{
     border: 1px solid gray;
     border-radius: 40px;
     margin-top: 72px;
+}
+/* Clients section related style */
+.clients-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    margin: 6.25rem 14.69rem 8.86rem;
+}
+.row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: start;
+    
+}
+.row h4{
+    text-align: left;
+}
+.img-1{
+   margin-top: 20px ;
+}
+.img-2{
+    margin-top: 40px;
+
+}
+.img-3{
+    margin-top: 90px;
+}
+.img-4{
+    margin-top: 60px;
+}
+.row img{
+    width: 70px;
+    height: 70px;
+}
+.row p{
+    color: #0B1B35;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
 }
 
 
