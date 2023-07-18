@@ -86,6 +86,61 @@ h1{
     font-size: 18px;
     font-weight: 700;
 }
+/* Vison and Goal related style */
+h4{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.vison-goal-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0rem 8.43rem;
+}
+.vison-goal-container img{
+    width: 4.7rem;
+    height: 4.7rem;
+}
+.column{
+    margin-bottom: 11.31rem;
+    margin-top: 6.25rem;
+    width: 22rem;
+    padding: 1.89rem 2.5rem 2.81rem;
+    border-radius: 28px;
+    text-align: center;
+    background: #FFF;
+    box-shadow: 1px 1px 40px rgb(174, 170, 170);
+}
+.column h3{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+}
+h4{
+    color: #8A898E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 6.3px;
+}
+.column p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.column button{
+    border: none;
+    padding: 11px 36px 9px;
+    color: #FFF;
+}
+
+
+
+
+
+
 /* Responsive Media query */
 /* smaller device */
 @media screen and (max-width: 576px){
