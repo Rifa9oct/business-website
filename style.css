@@ -46,7 +46,8 @@ nav button{
 /* Bannar related sttyle */
 .bannar{
     display: flex;
-    margin-left: 8.43rem;
+    justify-content: space-between;
+    margin: 0px 8.43rem;
 }
 h1{
     color: #0B1B35;
@@ -100,8 +101,8 @@ h4{
     margin: 0rem 8.43rem;
 }
 .vison-goal-container img{
-    width: 4.7rem;
-    height: 4.7rem;
+    width: 5.3rem;
+    height: 4.5rem;
 }
 .column{
     margin-bottom: 11.31rem;
