@@ -41,4 +41,117 @@ nav button{
 }
 .common-font{
     font-size: 18px;
+    font-weight: 500;
+}
+/* Bannar related sttyle */
+.bannar{
+    display: flex;
+    margin-left: 8.43rem;
+}
+h1{
+    color: #0B1B35;
+    font-size: 70px;
+    font-weight: 850;
+    margin: 0px;
+    margin-top: 7.13rem;
+}
+.bannar p{
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 3.75rem;
+}
+.bannar-img{
+    width: 44.19rem;
+    height: 38.63rem;
+    margin-top: 6rem;
+}
+.bannar-div{
+    display: flex;
+    align-items: center;
+}
+.bannar-div button{
+    padding: 10px 34px;
+    border: none;
+    color: #FFF;
+    margin-right:1.75rem ;
+}
+.bannar-div img{
+    width: 3.13rem;
+    height: 3.75rem;
+    margin-right:1.56rem ;
+}
+.bannar-div h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Responsive Media query */
+/* smaller device */
+@media screen and (max-width: 576px){
+/* Make Nav and Bannar responsive */
+    nav{
+        flex-direction: column;
+        margin: 0px;
+    }
+    nav img{
+        margin-top: 30px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    ul{
+        gap: 1.25rem;
+    }
+    .bannar{
+        flex-direction: column;
+        margin: 0px;
+        text-align: center;
+    }
+    .bannar p{
+        font-size: 20px;
+    }
+    .bannar-div{
+        justify-content: center;
+    }
+    .bannar-img{
+        width: 100%;
+        height: 100%;
+    }
+}
+/* Mediam device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        margin: 0px;
+        margin-top: 30px;
+        margin-left: 20px;
+        justify-content: space-evenly;
+    }
+    ul{
+        gap: 1.25rem;
+    }
+    nav img{
+        margin-left: 10px;
+    }
+    nav button{
+        margin-right: 10px;
+    }
+    .common-font{
+        font-size: 15px;
+    }   
+    .bannar{
+        flex-direction: column;
+        text-align: center;
+        margin: 0px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .bannar-div{
+        justify-content: center;
+    }
+    .bannar-img{
+        width: 100%;
+        height: 100%;
+    }
 }
