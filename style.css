@@ -247,6 +247,41 @@ h4{
     font-size: 22px;
     font-weight: 400;
 }
+/* Subscribe section related style */
+.subscribe{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 135px 200px;
+}
+.subscribe img{
+    width: 293px;
+    height: 322px;
+}
+input{
+    margin: 23px 0px 50px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 49px;
+    padding: 24px 330px 24px 67px;
+    border: none;
+    background: #FFF;
+    box-shadow: 1px  1px 50px rgb(197, 197, 197);
+}
+.subscribe p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe button{
+    padding: 12px 249px;
+    color: #FFF;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;   
+}
 
 
 
@@ -335,7 +370,22 @@ h4{
     .team-sec{
         margin-top: 50px;
     }
-
+/* Subscribe section  */
+    .subscribe-sec{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .subscribe{
+        flex-direction: column;
+        margin: 0px;
+        text-align: center;
+    }
+    .subscribe input{
+        padding: 20px 60px 20px 20px;
+    }
+    .subscribe button{
+        padding: 12px 70px;
+    }
 }
 /* Mediam device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -422,5 +472,21 @@ h4{
     }
     .team-sec{
         margin-top: 50px;
+    }
+/* Subscribe section  */
+    .subscribe-sec{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .subscribe{
+        flex-direction: column;
+        margin: 0px;
+        text-align: center;
+    }
+    .subscribe input{
+        padding: 20px 60px 20px 20px;
+    }
+    .subscribe button{
+        padding: 12px 70px;
     }
 }
