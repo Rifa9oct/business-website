@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    font-family: 'Arimo', sans-serif;
+}
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem  8.43rem 0rem;
+}
+nav img{
+    width: 15rem;
+    height: 3rem;
+}
+ul{
+    display: flex;
+    gap: 2.5rem;   
+}
+ol{
+    display: flex;
+    gap: 1.38rem;
+    align-items: center;
+}
+li{
+    list-style: none;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav button{
+    padding: 10px 30px;
+    border: none;
+    color: #FFF;
+}
+.primary-color{
+    border-radius: 10px;
+    background: #F60;
+}
+.common-font{
+    font-size: 18px;
+}
