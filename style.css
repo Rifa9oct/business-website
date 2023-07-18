@@ -163,7 +163,7 @@ h4{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 40px;
     margin-top: 72px;
 }
@@ -208,6 +208,44 @@ h4{
     font-size: 18px;
     font-weight: 500;
     margin: 0px;
+}
+/* Meet teams section related style */
+.team{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 53px 135px 110px;
+    text-align: center;
+
+}
+.team-container img{
+    width: 120px;
+    height: 120px; 
+    margin: 50px 125px 0px;
+}
+.team-container{
+    width: 370px;
+    height: 370px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.team-container p{
+    color: #1E0E62;
+    font-size: 22px;
+    font-weight: 500;
+}
+.team-container h3{
+    color:  #15143966;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.icon{
+    color:  #15143966;
+    margin: 50px 47px;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 
@@ -289,6 +327,14 @@ h4{
     .img-4{
         margin-top: 40px;
     }
+/* Meet teams section  */
+    .team{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .team-sec{
+        margin-top: 50px;
+    }
 
 }
 /* Mediam device */
@@ -355,7 +401,7 @@ h4{
         margin: 0px;
         margin-bottom: 30px;
     }
-    /* Clients section */
+/* Clients section */
     .clients-container{
         grid-template-columns: 1fr;
         margin: 0px;
@@ -368,5 +414,13 @@ h4{
     }
     .img-4{
         margin-top: 40px;
+    }
+/* Meet teams section  */
+    .team{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .team-sec{
+        margin-top: 50px;
     }
 }
