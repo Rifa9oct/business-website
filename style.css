@@ -275,6 +275,21 @@ h4{
         margin: 0px;
         margin-bottom: 30px;
     }
+/* Clients section */
+    .clients-container{
+        grid-template-columns: 1fr;
+        margin: 0px;
+    }
+    .row{
+        margin-top: 50px;
+    }
+    .img-3{
+        margin-top: 40px;
+    }
+    .img-4{
+        margin-top: 40px;
+    }
+
 }
 /* Mediam device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -339,5 +354,19 @@ h4{
     .blocks button{
         margin: 0px;
         margin-bottom: 30px;
+    }
+    /* Clients section */
+    .clients-container{
+        grid-template-columns: 1fr;
+        margin: 0px;
+    }
+    .row{
+        margin-top: 50px;
+    }
+    .img-3{
+        margin-top: 40px;
+    }
+    .img-4{
+        margin-top: 40px;
     }
 }
